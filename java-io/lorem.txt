@@ -1,0 +1,7 @@
+A primeira linha do meu arquivo foi impressa 
+Testando, linha 2
+A terceira linha do arquivo esta sendo impressa agora
+Testando, linha 4
+Estamos na quinta linha do arquivo, tudo esta indo bem
+Testando, linha 6
+Setima linha do aquivo lida e o arquivo esta no final
