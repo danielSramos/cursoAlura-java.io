@@ -12,7 +12,7 @@ public class TesteLeitura {
 	public static void main(String[] args) throws IOException {
 		
 		InputStream fis = new FileInputStream("lorem.txt");
-		Reader isr = new InputStreamReader(fis);
+		Reader isr = new InputStreamReader(fis, "UTF-8");
 		BufferedReader br = new BufferedReader(isr);
 		
 		String palavra = br.readLine();
@@ -23,5 +23,4 @@ public class TesteLeitura {
 		}
 		br.close();
 	}
-
 }
